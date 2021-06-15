@@ -47,6 +47,8 @@
 
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>CloudAssertProductionSignKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -65,7 +67,7 @@
 
   <ItemGroup>
     <None Include="..\..\License.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
-    <None Include="..\..\packageIcon.png" Pack="true" PackagePath=""/>
+    <None Include="..\..\packageIcon.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>

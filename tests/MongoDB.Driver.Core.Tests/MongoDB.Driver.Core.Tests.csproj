@@ -48,6 +48,8 @@
       xUnit1025; <!--InlineData should be unique within the Theory it belongs to (https://xunit.github.io/xunit.analyzers/rules/xUnit1025.html)-->
       xUnit1026 <!--Theory methods should use all of their parameters (https://xunit.github.io/xunit.analyzers/rules/xUnit1026.html)-->
     </NoWarn>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>CloudAssertProductionSignKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

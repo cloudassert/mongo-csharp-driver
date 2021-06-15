@@ -31,6 +31,8 @@
 
   <PropertyGroup>
     <DefineConstants>TRACE</DefineConstants>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>CloudAssertProductionSignKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.5'">
