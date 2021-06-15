@@ -160,8 +160,7 @@ Task("Test")
             testProject.FullPath,
             settings
         );
-    })
-    .DeferOnError();
+    });
 
 Task("TestNet452").IsDependentOn("Test");
 Task("TestNetStandard15").IsDependentOn("Test");

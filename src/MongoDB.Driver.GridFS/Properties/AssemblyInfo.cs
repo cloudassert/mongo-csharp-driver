@@ -25,4 +25,4 @@ using MongoDB.Bson;
 // Required for most of the reflection usage in Xamarin.iOS/Xamarin.Mac.
 [assembly: Preserve(AllMembers = true)]
 
-[assembly: InternalsVisibleTo("MongoDB.Driver.GridFS.Tests")]
+[assembly: InternalsVisibleTo("MongoDB.Driver.GridFS.Tests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100557f78f72aa26a8ac4b5ae55ba25b2e82fe12c3288c5874fce94983fa87754e788d49a23a711c2f1b4c55b4d45e3f465901d25718f12fe861985d3a44a1b0e9cf385f588fd062f21cdd89fec75d84a0c7e7bdd4b2e1555435f6f039ce917c7a136482e30f5571e2137042217a9c0a3e0e24bc15c9f7201ff224329cc7ace29b0")]

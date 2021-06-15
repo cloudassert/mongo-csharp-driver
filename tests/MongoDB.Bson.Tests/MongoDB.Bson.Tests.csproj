@@ -51,6 +51,8 @@
       xUnit2013; <!--Do not use equality check to check for collection size. (https://xunit.github.io/xunit.analyzers/rules/xUnit2013.html)-->
       xUnit2017 <!--Do not use Contains() to check if a value exists in a collection (https://xunit.github.io/xunit.analyzers/rules/xUnit2017.html)-->
     </NoWarn>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>CloudAssertProductionSignKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   
   <ItemGroup>

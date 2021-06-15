@@ -100,6 +100,8 @@
 
   <PropertyGroup>
     <ZstdBinaries>Core/Compression/Zstandard/lib/win</ZstdBinaries>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>CloudAssertProductionSignKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(IsWindows)' == true ">
